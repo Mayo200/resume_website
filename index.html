@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oluwamayomikun Afolake Idowu | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+    <header>
+        <h1>Oluwamayomikun Afolake Idowu</h1>
+        <p>Software Developer & Content Writer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Oluwamayomikun Afolake Idowu, a passionate software developer and content writer. I have experience in both fields and am eager to contribute to innovative projects. Below is a summary of my career, education, and skills.</p>
+    </section>
+
+    <section id="job-experiences">
+        <h2>Job Experiences <button onclick="toggleVisibility('job-experiences-list')">Show/Hide</button></h2>
+        <ul id="job-experiences-list">
+            <li><strong>Buds n Tech IT Solutions:</strong> Content Writer</li>
+            <li><strong>QDS Technologies:</strong> Content Writer Intern</li>
+            <li><strong>IIT Kanpur, Robust Results Pvt Ltd:</strong> Software Developer Intern</li>
+            <li><strong>Dew:</strong> Content Writer</li>
+        </ul>
+    </section>
+    
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Effective Time Management</li>
+                    <li>Communication</li>
+                    <li>Adaptability</li>
+                    <li>Creativity</li>
+                    <li>Teamwork</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>SEO and Keyword Research</li>
+                    <li>Creative Writing</li>
+                    <li>Editing and Proofreading</li>
+                    <li>Proficiency in Google Docs (Word, Sheet, PPT)</li>
+                    <li>Proficiency in CMS (WordPress)</li>
+                    <li>Proficiency in Microsoft Word, Excel, and PowerPoint</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Glocal University, Saharanpur, Uttar Pradesh, India:</strong> Bachelors' of Computer Applications</li>
+            <li><strong>Noida International University, Greater Noida, Uttar Pradesh, India:</strong> Masters' of Computer Applications</li>
+        </ul>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>CS50's Introduction to Programming with Python</li>
+            <li>Sololearn’s Python Data Structures</li>
+            <li>Sololearn’s Python Intermediate</li>
+            <li>Sololearn’s HTML</li>
+            <li>Sololearn’s Introduction to JavaScript</li>
+            <li>Sololearn’s JavaScript Intermediate</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-container">
+            <p>Click to expand</p>
+            <img src="image1.jpeg" alt="Photo 1" onclick="openLightbox(this)">
+            <img src="image2.jpeg" alt="Photo 2" onclick="openLightbox(this)">
+            <img src="image3.jpeg" alt="Photo 3" onclick="openLightbox(this)">
+            <img src="image4.jpeg" alt="Photo 4" onclick="openLightbox(this)">
+            <img src="image5.jpeg" alt="Photo 5" onclick="openLightbox(this)">
+        </div>
+    </section>
+    
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+    
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:idowuoluwamayomikun@gmail.com">idowuoluwamayomikun@gmail.com</a></p>
+        <p>Phone: 070 72371136, 091 53466878</p>
+        <p>Address: Block 10, Plot 9, Federal Housing Estate, Ikoto, Ijebu Ode, Ogun State</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/oluwamayomikun-idowu-3164b8272" target="_blank">oluwamayomikun-idowu</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Oluwamayomikun Afolake Idowu</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+
+</body>
+</html>
